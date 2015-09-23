@@ -1,14 +1,39 @@
-<form>
-	<!-- 加载编辑器的容器 -->
-    <script id="container" name="content" type="text/plain">
-        这里写你的初始化内容
-    </script>
-    <!-- 配置文件 -->
-    <script type="text/javascript" src="__PUBLIC__/UEditor/ueditor.config.js"></script>
-    <!-- 编辑器源码文件 -->
-    <script type="text/javascript" src="__PUBLIC__/UEditor/ueditor.all.js"></script>
-    <!-- 实例化编辑器 -->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/biaoqing/sendTalks.css">
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js"></script>
+<div class="editordaily">
+    <form action="{:U('User/doTalksSubmit')}" method="post" enctype='multipart/form-data'>
+        <div id="main">
+             <div class="comment">
+                <div class="com_form">
+                    <textarea class="input" id="saytext" name="content"></textarea>
+                    <p>
+                        <input type="submit" class="sub_btn" value="提交">
+                        <span class="emotion">表情</span>
+                        <span class="photo">图片</span>
+                    </p>
+                </div>
+             </div>
+             <div class="imgbox">
+                <div class="addphoto">
+                    <span></span>
+                    <input class="myfile" name="logimg[]" type="file"/>
+                </div>
+             </div> 
+        </div>
+    </form>    
+    <script type="text/javascript" src="__PUBLIC__/biaoqing/jquery.qqFace.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/biaoqing/sendTalks.js"></script>
     <script type="text/javascript">
-        var ue = UE.getEditor('container');
+        $(function(){
+            $('.emotion').qqFace({
+                id : 'facebox', //表情盒子的ID
+                assign:'saytext', //给那个控件赋值
+                path:'__PUBLIC__/biaoqing/face/'    //表情存放的路径
+            });
+            $(".sub_btn").click(function(){
+                var str = $("#saytext").val();
+                $("#show").html(replace_em(str));
+            });
+        });
     </script>
-</form>
+</div>

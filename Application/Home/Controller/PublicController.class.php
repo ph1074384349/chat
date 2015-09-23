@@ -80,19 +80,21 @@ class PublicController extends Controller {
         //     json_return(400,'验证码错误');
         // }
         if (preg_match('/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/', $name)){  //邮箱登录
-            $pass = $this->User->field('password,user_en_id,nickname')->where("email = '%s'",array($name))->find(); //正确的密码
+            $pass = $this->User->field('password,user_id,user_en_id,nickname')->where("email = '%s'",array($name))->find(); //正确的密码
             if($pass['password'] == password_encode($password)){
                 session('nickname',$pass['nickname']);
                 session('user_en_id', $pass['user_en_id']);
+                session('user_id', $pass['user_id']);
                 json_return(200, '正确');
             }else{
                 json_return(400, '用户名或密码错误');
             }
         }else{  //用户名登录
-            $pass = $this->User->field('password,user_en_id,nickname')->where("user_name = '%s'",array($name))->find(); //正确的密码
+            $pass = $this->User->field('password,user_id,user_en_id,nickname')->where("user_name = '%s'",array($name))->find(); //正确的密码
             if($pass['password'] == password_encode($password)){
                 session('nickname', $pass['nickname']);
                 session('user_en_id', $pass['user_en_id']);
+                session('user_id', $pass['user_id']);
                 json_return(200, '正确');
             }else{
                 json_return(400, '用户名或密码错误');

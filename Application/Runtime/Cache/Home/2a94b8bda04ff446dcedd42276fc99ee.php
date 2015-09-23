@@ -6,7 +6,7 @@
 	<style type="text/css">*{margin: 0px;padding: 0px;}</style>
 </head>
 <body>
-	<link href="/Public/Css/Public/header.css" rel="stylesheet" type="text/css" />
+	<link href="/chat/Public/Css/Public/header.css" rel="stylesheet" type="text/css" />
 <header>
 	<div class="right">
 		<a href="<?php echo U('User/personal');?>"><?php echo session('nickname'); ?></a>

@@ -44,3 +44,13 @@ function json_return($state, $content ,$data = ''){
 	echo json_encode($info);
 	die();
 }
+
+/*日志上传后的名字*/
+function get_talks_name(){
+	return md5(rand(0,1000)*rand(0,1000)*rand(0,1000));
+}
+
+/*日志上传后的子目录名字*/
+function get_talks_id(){
+	return session('user_en_id');
+}

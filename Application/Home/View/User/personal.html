@@ -3,9 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>个人中心</title>
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js"></script>
+	<style type="text/css">
+		li{list-style: none;}
+	</style>
 </head>
 <body>
 	<a href="{:U('User/info')}">资料</a>
 	<include file="./editordaily" />
+	<div class="showDaily">
+		<div id="dailyBox">
+			<ul>
+				<foreach name="talks" item="vo">
+					<li>
+						<span>{$vo.content}</span>
+						<div class="dailyImages">
+							<php>$img_url = unserialize($vo[img_url]);
+								foreach($img_url as $value){
+									$url = "/chat".$value;
+									echo "<img src=$url>";
+								}
+							</php>
+						</div>
+					</li>
+				</foreach>						
+			</ul>
+		</div>
+		<script type="text/javascript">
+		    $("#dailyBox li span").each(function(){
+		    	var content = $(this).text();
+			    var reg = /\[em_([\d]+)\]/g;
+			    content = content.replace(reg,'<img src="/__PUBLIC__/biaoqing/face/$1.gif"/>');
+			    $(this).html(content);		    	
+		    });
+
+    	</script>
+	</div>
 </body>
 </html>

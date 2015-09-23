@@ -1,0 +1,23 @@
+body,html{text-align:center;}
+#main{margin:30px auto;width:400px;text-align:left;}
+#show{width:380px; margin:20px auto}
+.comment{width:380px; margin:20px auto; position:relative}
+.comment h3{height:28px; line-height:28px}
+.com_form{width:100%; position:relative}
+.input{width:100%; height:60px; border:1px solid #ccc}
+.sub_btn{float:right;}
+.com_form p{height:28px; line-height:28px;}
+/*以上css代码根据实际情况修改，以下css代码必须保留*/
+span.emotion{width:60px; height:20px; overflow:hidden; background:url(/chat/Public/biaoqing/icon.gif) no-repeat 2px 2px; padding-left:20px; cursor:pointer;}
+span.emotion:hover{background-position:2px -28px;/*注意hover此属性在ie 6浏览器下是无效的*/}
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+.qqFace table td{padding:0px;}
+.qqFace table td img{cursor:pointer;border:1px #fff solid;}
+.qqFace table td img:hover{border:1px #0066cc solid;}
+
+.photo{cursor: pointer;}
+.imgbox{background-color: #dfdfdf;display: none;}
+.imgbox img{margin: 2px 2px;float: left;background-color: #dfdfdf;width: 96px;height:96px;}
+.addphoto{float: left;display: inline-block;cursor: pointer;margin: 2px 2px;width: 96px;height:96px;position: relative;}
+.addphoto span{width: 96px;height:96px;background-color: #999;display:inline-block;position:absolute;background-image: url(/chat/Public/biaoqing/image.png);background-repeat: no-repeat;background-position: center;top: 0px;left: 0px;}
+.addphoto input{filter:alpha(opacity:0);opacity: 0;width: 96px;height:96px;cursor: pointer;position: absolute;top: 0px;left: 0px;}

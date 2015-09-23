@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>登录页</title>
-	<script type="text/javascript" src="/Public/Js/jquery.min.js"></script>
+	<script type="text/javascript" src="/chat/Public/Js/jquery.min.js"></script>
 </head>
 <body>
 	<div>
