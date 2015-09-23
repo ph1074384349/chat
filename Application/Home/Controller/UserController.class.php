@@ -21,12 +21,13 @@ class UserController extends Controller {
         $this->display();
     }
 
-    /*个人资料*/
-    public function info(){
-        $where['sp_users_login.user_en_id'] = session('user_en_id');
-        //$data = $this->User->where($where)->join('LEFT JOIN sp_users_profile ON sp_users_login.user_id = sp_users_profile.uid')->find();
-        $data = $this->User->where($where)->relation(true)->find();
-        dump($data);
+    /*编辑个人资料*/
+    public function personaledit(){
+        dump("asds");
+        // $where['sp_users_login.user_en_id'] = session('user_en_id');
+        // $data = $this->User->where($where)->relation(true)->find();
+        // //dump($data);
+        // $this->display();
     }
 
     /*处理日志提交*/

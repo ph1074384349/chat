@@ -6,37 +6,77 @@
 	<script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js"></script>
 	<style type="text/css">
 		li{list-style: none;}
+		#showDaily{width: 600px;float: left;}
+		#showDaily ul{padding: 0px;}
+		#showDaily li{border: 1px solid #dfdfdf;border-top: 0px;padding: 5px 5px;}
+		#showDaily li span{width: 94%;display: block;text-align: left;line-height: 20px;margin-bottom: 10px;padding: 0 3%;}
+		#showDaily li span .eimg{width: 20px;height: 20px;vertical-align:bottom;}
+		#showDaily li .userbox{padding: 0 20px;text-align: left;}
+		#showDaily li .time{bottom: 5px;right: 10px;width: 100%;text-align: right;}
+		#showDaily li .conbox{text-align: right;}
+		.dailyImages img{height: 90px;width: 90px;margin-right: 7px;}
+
+		#personalbox{background-color: #dfdfdf;height: 600px;width: 230px;float: left;margin-right: 120px;}
+		#personalbox .img{width: 100%;text-align: center;padding-top: 20px;position: relative;}
+		#personalbox .img img{width: 120px;height: 120px;cursor: pointer;}
+		#personalbox .img .hr{height: 20px;width: 200px;margin: 0 auto;border-bottom: 1px solid #999;} 
+		#personalbox .img .imguploadbox{position: absolute;top:0px;left:0px;width: 100%;height: 100%;background-color: yellow;}
+		#personalbox .img .imgupload{position: absolute;top:0px;left:0px;width: 100%;height: 100%;filter:alpha(opacity:0);opacity: 0;cursor: pointer;}
+		#personalbox .img .imguploadbox{position: absolute;width: 0%;left: 55px;height: 1px;top: 20px;height: 120px;}
+		#personalbox .img .imgupload{position: absolute;width: 0%;left: 55px;height: 1px;top: 20px;height: 120px;}
 	</style>
 </head>
 <body>
 	<a href="{:U('User/info')}">资料</a>
-	<include file="./editordaily" />
-	<div class="showDaily">
-		<div id="dailyBox">
-			<ul>
-				<foreach name="talks" item="vo">
-					<li>
-						<span>{$vo.content}</span>
-						<div class="dailyImages">
-							<php>$img_url = unserialize($vo[img_url]);
-								foreach($img_url as $value){
-									$url = "/chat".$value;
-									echo "<img src=$url>";
-								}
-							</php>
-						</div>
-					</li>
-				</foreach>						
-			</ul>
+<!-- 	<include file="./editordaily"/> 发布日志-->
+	<div id="personalbox">
+		<div class="img">
+			<img class="headimg" src="/chat/Images/Users/9d4afb83528875aef9e0380b7901d0ba/0a37f62af626ceca6b25ca60a959b6f5.jpg"/>
+			<div class="hr"></div>
+			<div class="imguploadbox"></div>
+			<input class="imgupload" type="file"/>
 		</div>
+		<div><a href="{:U('User/personaledit')}">编辑</a></div>
+	</div>
+	<div id="showDaily">
+		<ul>
+			<foreach name="talks" item="vo">
+				<li>
+					<div class="userbox">id:{$vo.user_id}</div>
+					<span>{$vo.content}</span>
+					<div class="dailyImages">
+						<php>$img_url = unserialize($vo[img_url]);
+							foreach($img_url as $value){
+								$url = "/chat".$value;
+								echo "<img src=$url>";
+							}
+						</php>
+					</div>
+					<div class="time">{$vo['talk_addtime']|date="Y-m-d H:i:s",###}</div>
+					<div class="conbox">(+1)</div>
+				</li>
+			</foreach>						
+		</ul>
+		<!--日志框-->
 		<script type="text/javascript">
-		    $("#dailyBox li span").each(function(){
+			$("#personalbox .headimg").mouseover(function(){
+				$(".imguploadbox").animate({'width': "120px"},300);
+				$(".imgupload").animate({'width': "120px"},300);
+			});
+			$("#personalbox .imgupload").mouseout(function(){
+				$(".imguploadbox").animate({'width': "0px"},300);
+				$(".imgupload").animate({'width': "0px"},300);
+			});
+		</script>
+
+		<!--日志框-->
+		<script type="text/javascript">
+		    $("#showDaily li span").each(function(){
 		    	var content = $(this).text();
 			    var reg = /\[em_([\d]+)\]/g;
-			    content = content.replace(reg,'<img src="/__PUBLIC__/biaoqing/face/$1.gif"/>');
+			    content = content.replace(reg,'<img class="eimg" src="__PUBLIC__/biaoqing/face/$1.gif"/>');
 			    $(this).html(content);		    	
 		    });
-
     	</script>
 	</div>
 </body>
