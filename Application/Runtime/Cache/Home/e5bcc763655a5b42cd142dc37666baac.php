@@ -19,11 +19,13 @@
 		#personalbox{background-color: #dfdfdf;height: 600px;width: 230px;float: left;margin-right: 120px;}
 		#personalbox .img{width: 100%;text-align: center;padding-top: 20px;position: relative;}
 		#personalbox .img img{width: 120px;height: 120px;cursor: pointer;}
-		#personalbox .img .hr{height: 20px;width: 200px;margin: 0 auto;border-bottom: 1px solid #999;} 
+		#personalbox .img .hr{height: 2px;width: 200px;margin: 0 auto;border-bottom: 1px solid #999;} 
 		#personalbox .img .imguploadbox{position: absolute;top:0px;left:0px;width: 100%;height: 100%;background-color: yellow;}
 		#personalbox .img .imgupload{position: absolute;top:0px;left:0px;width: 100%;height: 100%;filter:alpha(opacity:0);opacity: 0;cursor: pointer;}
 		#personalbox .img .imguploadbox{position: absolute;width: 0%;left: 55px;height: 1px;top: 20px;height: 120px;}
 		#personalbox .img .imgupload{position: absolute;width: 0%;left: 55px;height: 1px;top: 20px;height: 120px;}
+		#personalbox .img .imgsubmit{position: absolute;left: 100px;top: 69px;}
+		.nickname{height: 30px;line-height: 30px;}
 	</style>
 </head>
 <body>
@@ -68,12 +70,20 @@
     </script>
 </div> 发布日志-->
 	<div id="personalbox">
-		<div class="img">
-			<img class="headimg" src="/chat/Images/Users/9d4afb83528875aef9e0380b7901d0ba/0a37f62af626ceca6b25ca60a959b6f5.jpg"/>
-			<div class="hr"></div>
-			<div class="imguploadbox"></div>
-			<input class="imgupload" type="file"/>
-		</div>
+		<form action="<?php echo U('User/headimgurlchange');?>" method="post" enctype='multipart/form-data'>
+			<div class="img">
+				<?php if(empty($$data[headimgurl])): ?><!-- <img class="headimg" src="/chat/Images/Users/9d4afb83528875aef9e0380b7901d0ba/0a37f62af626ceca6b25ca60a959b6f5.jpg"/> -->
+					<img class="headimg" src="/chat<?php echo ($data["headimgurl"]); ?>"/>
+				<?php else: ?>
+					<img class="headimg" src="/chat<?php echo ($data["headimgurl"]); ?>"/><?php endif; ?>
+
+				<div class="nickname"><?php echo ($data["nickname"]); ?></div>
+				<div class="hr"></div>
+				<div class="imguploadbox"></div>
+				<input id="imgupload" name="imgupload" class="imgupload" type="file"/>
+				<input class="imgsubmit" type="submit" value="提交"/>
+			</div>			
+		</form>
 		<div><a href="<?php echo U('User/personaledit');?>">编辑</a></div>
 	</div>
 	<div id="showDaily">
@@ -108,6 +118,24 @@
 			    content = content.replace(reg,'<img class="eimg" src="/chat/Public/biaoqing/face/$1.gif"/>');
 			    $(this).html(content);		    	
 		    });
+    	</script>
+		
+		<!--头像修改-->
+    	<script type="text/javascript">
+			$('#imgupload').bind('change',function(event){
+			    var imguploadbox = $(".imguploadbox");
+			    var files = !!this.files ? this.files : [];
+			    if (!files.length || !window.FileReader) return;
+			    if (/^image/.test( files[0].type)){
+			        var reader = new FileReader();
+			        reader.readAsDataURL(files[0]);
+			        reader.onloadend = function(){  
+			            var img = document.createElement("img");
+			            img.src = this.result;
+			            $(img).appendTo(imguploadbox);
+			        }
+			    }
+			});
     	</script>
 	</div>
 </body>

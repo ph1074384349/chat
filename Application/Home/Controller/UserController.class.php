@@ -17,17 +17,18 @@ class UserController extends Controller {
     public function personal(){
         //个人日志
         $talks = $this->users_talk->where("user_id = %d",array(session('user_id')))->select();
+        $data = $this->User->where("user_id = %d",array(session('user_id')))->relation(true)->find();
         $this->talks = $talks;
+        $this->data = $data;
         $this->display();
     }
 
     /*编辑个人资料*/
     public function personaledit(){
-        dump("asds");
-        // $where['sp_users_login.user_en_id'] = session('user_en_id');
-        // $data = $this->User->where($where)->relation(true)->find();
-        // //dump($data);
-        // $this->display();
+        $where['sp_users_login.user_en_id'] = session('user_en_id');
+        $data = $this->User->where($where)->relation(true)->find();
+        //dump($data);
+        $this->display();
     }
 
     /*处理日志提交*/
@@ -75,6 +76,33 @@ class UserController extends Controller {
                 array_push($thumbImages,"/Images/Users/".$value['savepath'].$value['savename']);
             }
             return $thumbImages;
+        }
+    }
+
+    /*使用者头像图片编辑*/
+    public function headimgurlchange(){
+        $limitSize = 1024*1024*8; // 设置附件上传大小于8M
+        $upload = new \Think\Upload();// 实例化上传类
+        $upload->maxSize   =     $limitSize;
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','JPG');// 设置附件上传类型
+        $upload->rootPath  =     './Images/'; // 设置附件上传根目录
+        $upload->savePath  =     ''; // 设置附件上传（子）目录
+        $upload->saveName  =     'get_talks_id'; //上传后的名字
+        $upload->autoSub   =      true;
+        $upload->subName   =      'Headimgurl';
+        $upload->replace = true;
+        // 上传文件 
+        $info   =   $upload->upload();
+        if(!$info) {// 上传错误提示错误信息
+            $this->error($upload->getError());
+        }else{// 上传成功
+            $image = new \Think\Image(); 
+            $thumbImages = array();
+            $imagePath = "./Images/Headimgurl/".$info['imgupload']['savename'];
+            $image->open($imagePath);
+            $thumbPath = "./Images/Headimgurl/"."thumb_".$info['imgupload']['savename'];
+            $image->thumb(200, 200)->save($thumbPath);
+            $this->success('修改成功');
         }
     }
 

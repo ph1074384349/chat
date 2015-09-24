@@ -51,6 +51,7 @@ class PublicController extends Controller {
                 $this->User->nickname = $name;
 				$this->User->password = password_encode($password);
 				$this->User->email = $email;
+                $this->User->headimgurl = "/Images/Defaultheadimgurl/defaul_".rand(1,12).".jpg";
 				$this->User->profile = array(
 					'affectivestatus' => 0,
 				);
