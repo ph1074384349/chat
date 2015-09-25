@@ -3,5 +3,6 @@
 	<div class="right">
 		<a href="{:U('User/personal')}"><php>echo session('nickname');</php></a>
 		<a href="{:U('Public/userexit')}">退出</a>
+		<a href="{:U()}">message:<php>$message = D('message'); $where['receiver_id'] = session('user_id');$count = $message->where($where)->count();echo $count;</php></a>
 	</div>
 </header>

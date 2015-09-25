@@ -1,24 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>编辑资料</title>
-	<script type="text/javascript" src="/chat/Public/Js/jquery.min.js"></script>
-	<style type="text/css">
-		.group{height: 30px;}
-	</style>
-</head>
-<body>
-<!-- 	<div class="group">
-		生日 :<input type="text"/>
-	</div>
-	<div class="group">
-		性别 :<input type="text"/>
-	</div>
-	<div class="group">
-		性别 :<input type="text"/>
-	</div> -->
-	<div id="selectcitysbox">
+<div id="selectcitysbox">
 	<select id="provinceValue" class="provinceValue" name="provinceValue" onchange="getcitys(this)">
 		<option>必填</option>
 	</select>
@@ -35,7 +15,7 @@
 	function getprovince(){
 		$.ajax({
 			type: "GET",
-			url: "<?php echo U('ApigetCitys/province');?>",
+			url: "{:U('ApigetCitys/province')}",
 			dataType: "json",
 			success: function(data){
 				var data = data['data'];
@@ -50,7 +30,7 @@
 	function getcitys(obj){
 		$.ajax({
 			type: "GET",
-			url: "<?php echo U('ApigetCitys/city');?>",
+			url: "{:U('ApigetCitys/city')}",
 			data: {province_code: $(obj).val()},
 			dataType: "json",
 			success: function(data){
@@ -66,7 +46,7 @@
 	function getarea(obj){
 		$.ajax({
 			type: "GET",
-			url: "<?php echo U('ApigetCitys/area');?>",
+			url: "{:U('ApigetCitys/area')}",
 			data: {city_code: $(obj).val()},
 			dataType: "json",
 			success: function(data){
@@ -80,5 +60,3 @@
 		});
 	}
 </script>
-</body>
-</html>

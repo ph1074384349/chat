@@ -106,7 +106,6 @@ class UserController extends Controller {
         }
     }
 
-
     /*限制图片上传大小（日志）*/
     public function imagesSize($image_num, $limitSize){
         for ($i=0; $i <= $image_num; $i++) { 
@@ -114,5 +113,15 @@ class UserController extends Controller {
                 $this->error("上传文件大小有大于5M的文件！");
             }
         }
+    }
+
+    /*加好友*/  
+    public function addFriend(){
+
+    }
+
+    /*向好友发送消息*/
+    public function sendMessage(){
+        
     }
 }
