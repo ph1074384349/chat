@@ -9,7 +9,7 @@
 	</style>
 </head>
 <body>
-	<div class="group">
+<!-- 	<div class="group">
 		生日 :<input type="text"/>
 	</div>
 	<div class="group">
@@ -17,7 +17,11 @@
 	</div>
 	<div class="group">
 		性别 :<input type="text"/>
+<<<<<<< HEAD
 	</div>
+=======
+	</div> -->
+>>>>>>> origin/master
 	<div id="selectcitysbox">
 	<select id="provinceValue" class="provinceValue" name="provinceValue" onchange="getcitys(this)">
 		<option>必填</option>

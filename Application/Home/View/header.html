@@ -3,7 +3,11 @@
 	<div class="right">
 		<a href="{:U('User/personal')}"><php>echo session('nickname');</php></a>
 		<a href="{:U('Public/userexit')}">退出</a>
+<<<<<<< HEAD
 		<a href="{:U('Message/index')}">message:<span id="message_count"></span></a>
+=======
+		<a href="{:U()}">message:<php>$message = D('message'); $where['receiver_id'] = session('user_id');$count = $message->where($where)->count();echo $count;</php></a>
+>>>>>>> origin/master
 	</div>
 	<a href="{:U('User/myfriend')}">我的朋友</a>
 	<script type="text/javascript">

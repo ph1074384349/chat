@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>首页</title>
+<<<<<<< HEAD
 	<script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js"></script>
 	<style type="text/css">
 		*{margin: 0px;padding: 0px;}
 		.group{height: 30px;line-height: 30px;}
+=======
+	<style type="text/css">
+		*{margin: 0px;padding: 0px;}
+		.peoplebox{height: 50px;line-height: 50px;}
+>>>>>>> origin/master
 	</style>
 </head>
 <body>
 	<include file="./header" />
+<<<<<<< HEAD
 	<foreach name="data" item="vo">
 		<div class="group">
 			姓名:{$vo.nickname} 
@@ -19,5 +26,10 @@
 			<a href="{:U('Message/friendMessage',array('en_id'=>$vo[user_en_id]))}">查看记录</a>
 		</div>
 	</foreach>
+=======
+	<div class="peoplebox">
+		姓名:{$data.nickname}  <a href="{:U('User/addFriend')}">加好友</a> <a href="{:U('User/sendMessage')}">发消息</a>
+	</div>
+>>>>>>> origin/master
 </body>
 </html>

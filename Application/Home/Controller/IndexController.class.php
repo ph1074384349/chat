@@ -12,7 +12,11 @@ class IndexController extends Controller {
     public function index(){
     	$this->User = new \Home\Model\UserModel();$this->User = new \Home\Model\UserModel();
     	$where['user_id'] = array('neq',session('user_id'));//搜索条件
+<<<<<<< HEAD
         $data = $this->User->where($where)->relation(true)->select();
+=======
+        $data = $this->User->where($where)->relation(true)->find();
+>>>>>>> origin/master
         $this->data = $data;
         $this->display();
     }

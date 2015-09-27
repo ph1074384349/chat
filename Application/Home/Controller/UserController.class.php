@@ -108,7 +108,6 @@ class UserController extends Controller {
         }
     }
 
-
     /*限制图片上传大小（日志）*/
     public function imagesSize($image_num, $limitSize){
         for ($i=0; $i <= $image_num; $i++) { 
@@ -120,6 +119,7 @@ class UserController extends Controller {
 
     /*加好友*/  
     public function addFriend(){
+<<<<<<< HEAD
         $itenid = I('get.en_id');//要加的好友的加密的id
         $users_contacts_group = D('users_contacts_group');
         $group = $users_contacts_group->where("user_en_id='%s'",array($itenid))->find();
@@ -218,4 +218,13 @@ class UserController extends Controller {
         $fenid = I('get.fenid');//要移动的好友
         friend_move_group($fenid, $group_id);
     }
+=======
+
+    }
+
+    /*向好友发送消息*/
+    public function sendMessage(){
+        
+    }
+>>>>>>> origin/master
 }
