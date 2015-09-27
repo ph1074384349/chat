@@ -11,6 +11,8 @@ class UserController extends Controller {
         CheckLogin(); //检查用户是否登录
         $this->User = new \Home\Model\UserModel();
         $this->users_talk = D('users_talk');
+        $this->friendrequest = D('friendrequest');
+        $this->myenid = session('user_en_id'); //自己用户表的id 
     }
 
     /*个人中心*/
@@ -114,5 +116,106 @@ class UserController extends Controller {
                 $this->error("上传文件大小有大于5M的文件！");
             }
         }
+    }
+
+    /*加好友*/  
+    public function addFriend(){
+        $itenid = I('get.en_id');//要加的好友的加密的id
+        $users_contacts_group = D('users_contacts_group');
+        $group = $users_contacts_group->where("user_en_id='%s'",array($itenid))->find();
+        if(!send_friendquery($this->myenid,$itenid,$group['group_id'])){
+            $this->error('已发送请求,请耐心等待！');
+        }
+        $this->success('发送好友请求成功！');
+    }
+
+    /*同意添加好友*/
+    function friend_agree(){
+        //判断有无此好友请求
+        $itenid = I('get.id');
+        $users_contacts_group = D('users_contacts_group');
+        $group = $users_contacts_group->where("user_en_id='%s'",array($this->myenid))->find();
+        if(!add_friend_agree($this->myenid, $itenid,$group['group_id'])){
+            $this->error('已经是好友了！');
+        }
+    }
+    /*不同意添加好友*/
+    function friend_disagree(){
+        $itenid = I('get.id');
+        if(!is_friendrequest($this->myenid, $itenid)){
+            $this->error('没有此好友其请求！');
+        }
+    }
+    /*忽略添加好友*/
+    function friend_ignore(){
+        $itenid = I('get.id');
+        if(!is_friendrequest($this->myenid, $itenid)){
+            $this->error('没有此好友其请求！');
+        }
+    }
+
+    /*我的朋友*/
+    function myfriend(){
+        //$contacts_group = array();
+        //获取分组
+        $users_contacts_group = D('users_contacts_group');
+        $users_contacts_entail = D('users_contacts_entail');
+        $group = $users_contacts_group->where("user_en_id='%s'",array($this->myenid))->select();
+        //获取各组联系人
+        foreach ($group as $value) {
+            $vo['name'] = $value['name'];
+            $vo['friend'] = $users_contacts_entail->where("group_id=%d",array($value['group_id']))->select();
+            $contacts_group[] = $vo;
+        }
+        $this->contacts = $contacts_group;
+        $this->display();
+    }
+
+    /*添加联系人分组*/
+    function addContacts(){
+        $contactsName = I('post.contactsName');//添加分组的名字
+        $users_contacts_group = D('users_contacts_group');
+        if($users_contacts_group->where("user_en_id = '%s' and name = '%s'",array($this->myenid,$contactsName))->count()){
+            json_return(400,'已存在分组(添加)');
+        }
+        $info['user_en_id'] = $this->myenid;
+        $info['name'] = $contactsName;
+        $info['group_time'] = time();
+        $result = $users_contacts_group->add($info);
+        json_return(200,'success',$result);
+    }
+    /*修改联系人分组*/
+    function editContacts(){
+        $contactsOname = I('post.contactsOname');//分组的原名字
+        $contactsName = I('post.contactsName');//分组的名字
+        $users_contacts_group = D('users_contacts_group');
+        if($users_contacts_group->where("user_en_id = '%s' and name = '%s'",array($this->myenid,$contactsName))->count()){
+            json_return(400,'已存在分组(修改)');
+        }
+        $info['name'] = $contactsName;
+        $info['group_edit_time'] = time();
+        $result = $users_contacts_group->where("user_en_id = '%s' and name = '%s'",array($this->myenid,$contactsOname))->save($info);
+        json_return(200,'success',$result);
+    }
+    /*删除联系人分组*/
+    function deleteContacts(){
+        
+    }
+    /*移至联系*/
+    function moveContacts(){
+        $friend_en_id = I('get.fenid');
+        session('move_friend_en_id', $friend_en_id );//保存要移动的好友加密的id
+        $users_contacts_group = D('users_contacts_group');
+        $data = $users_contacts_group->where("user_en_id = '%s'",array($this->myenid))->select();
+        $this->data = $data;
+        $this->friend_en_id = $friend_en_id;
+        $this->display();
+    }
+    /*处理移至联系*/
+    function domoveContacts(){
+        //没有经过有无此组验证
+        $group_id = I('get.gid');//要移至的组id
+        $fenid = I('get.fenid');//要移动的好友
+        friend_move_group($fenid, $group_id);
     }
 }

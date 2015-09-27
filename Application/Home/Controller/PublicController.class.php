@@ -55,8 +55,15 @@ class PublicController extends Controller {
 				$this->User->profile = array(
 					'affectivestatus' => 0,
 				);
-				$this->User->user_en_id = md5($name.$password.time());
+                $user_en_id = md5($name.$password.time());
+				$this->User->user_en_id = $user_en_id;
 			    $this->User->relation("profile")->add();
+
+                //添加联系人分组我的好友
+                $users_contacts_group = D('users_contacts_group');
+                $info['user_en_id'] = $user_en_id;
+                $info['group_time'] = time();
+                $users_contacts_group->add($info);
                 header("Location: ".U('Index/index'));
 			}
     	}else{ //注册页

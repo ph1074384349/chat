@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>记录</title>
+</head>
+<body>
+	<h1>{$itenid|getNicknameByEnId=###}</h1>
+	<h2>发送</h2>
+	<ul>
+		<foreach name="data_send" item="vo">
+			<li>{$vo[content]}</li>
+		</foreach>		
+	</ul>
+	<h2>接受</h2>
+	<ul>
+		<foreach name="data_receive" item="vo">
+			<li>{$vo[content]}</li>
+		</foreach>		
+	</ul>
+</body>
+</html>

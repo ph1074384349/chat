@@ -408,3 +408,2321 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-09-25T21:42:50+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:42:50+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:42:51+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:42:56+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:42:56+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT `password`,`user_id`,`user_en_id`,`nickname` FROM `sp_users_login` WHERE ( user_name = 'fuyun' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:42:56+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:46:27+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:46:27+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:29+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:29+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:30+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:30+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:31+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:31+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:31+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-25T21:46:31+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:34+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:34+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-25T21:46:34+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-25T21:46:35+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:46:36+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:48:34+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:48:34+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:48:35+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:48:38+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:48:39+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:49:14+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:49:17+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:49:32+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:49:32+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.2320s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.1200s ]
+
+[ 2015-09-25T21:49:34+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 13  [ RunTime:0.0310s ]
+
+[ 2015-09-25T21:49:38+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 33  [ RunTime:0.0010s ]
+
+[ 2015-09-25T21:49:40+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/area.html?city_code=3304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 3304  [ RunTime:0.0120s ]
+
+[ 2015-09-25T21:49:44+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:49:44+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0190s ]
+
+[ 2015-09-25T21:49:48+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 33  [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:49:50+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/area.html?city_code=3302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 3302  [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:50:08+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-25T21:50:08+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0170s ]
+
+[ 2015-09-25T21:50:27+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:27+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0190s ]
+
+[ 2015-09-25T21:50:28+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:28+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0190s ]
+
+[ 2015-09-25T21:50:28+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:28+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0180s ]
+
+[ 2015-09-25T21:50:29+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:29+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0200s ]
+
+[ 2015-09-25T21:50:29+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:50:29+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0180s ]
+
+[ 2015-09-25T21:50:34+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 14  [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:50:35+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 11  [ RunTime:0.0010s ]
+
+[ 2015-09-25T21:50:36+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:36+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0060s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0180s ]
+
+[ 2015-09-25T21:50:40+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 12  [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:50:41+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/city.html?province_code=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0050s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `parentId` = 11  [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:50:42+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '9d4afb83528875aef9e0380b7901d0ba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:42+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0040s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0190s ]
+
+[ 2015-09-25T21:50:52+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0190s ]
+
+[ 2015-09-25T21:50:54+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+NOTIC: [8] Use of undefined constant img_url - assumed 'img_url' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:50:54+08:00 ] 127.0.0.1 /chat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:51:21+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/userexit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:51:22+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:51:22+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:51:23+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:51:34+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:51:34+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT `password`,`user_id`,`user_en_id`,`nickname` FROM `sp_users_login` WHERE ( user_name = 'fuyun1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:52:12+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:52:12+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT `password`,`user_id`,`user_en_id`,`nickname` FROM `sp_users_login` WHERE ( user_name = 'fuyun2' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:52:55+08:00 ] 127.0.0.1 /chat/index.php/Home/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT `password`,`user_id`,`user_en_id`,`nickname` FROM `sp_users_login` WHERE ( user_name = 'ph107' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T21:52:55+08:00 ] 127.0.0.1 /chat/index.php/Home/Common/checkCode/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:52:55+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:52:57+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 28 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 28 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='28' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:52:58+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_talk` WHERE ( user_id = 28 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='28' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant headimgurl - assumed 'headimgurl' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\e5bcc763655a5b42cd142dc37666baac.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:52:59+08:00 ] 127.0.0.1 /chat/index.php/Home/User/personaledit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE sp_users_login.user_en_id = '7687a81e3395d29b3709e8559793b4af' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='28' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:53:00+08:00 ] 127.0.0.1 /chat/index.php/Home/ApigetCitys/province.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_citys` [ RunTime:0.0080s ]
+SQL: SELECT `name`,`code` FROM `sp_citys` WHERE `level` = 1  [ RunTime:0.0250s ]
+
+[ 2015-09-25T21:54:17+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28' LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:54:43+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\chat\ThinkPHP\Common\functions.php:850) C:\xampp\htdocs\chat\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\chat\ThinkPHP\Common\functions.php:850) C:\xampp\htdocs\chat\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\chat\ThinkPHP\Common\functions.php:850) C:\xampp\htdocs\chat\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:55:00+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:57:34+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T21:58:13+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:58:44+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T21:58:45+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:00:49+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:01:09+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:01:20+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:01:21+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:06:14+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:06:15+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-25T22:06:32+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:06:33+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:06:34+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 24 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:07:04+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:07:05+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 23 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:07:55+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:08:10+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:08:10+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 24 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:08:22+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 24 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:08:42+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 24 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:08:42+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 24 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-25T22:08:44+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:08:45+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:08:55+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-25T22:14:29+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:15:08+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:15:08+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:15:29+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:15:31+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:15:50+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-25T22:16:10+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:16:53+08:00 ] 127.0.0.1 /chat/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE `user_id` <> '28'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_profile` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='24' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='25' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_users_profile` WHERE ( 1=1 AND uid='27' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant user_en_id - assumed 'user_en_id' C:\xampp\htdocs\chat\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-25T22:16:55+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_message` [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`demo`.`sp_users_message`, CONSTRAINT `sp_users_message_ibfk_1` FOREIGN KEY (`sender_id`) REFERENCES `sp_users_login` (`user_id`))
+
+[ 2015-09-25T22:17:22+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_message` [ RunTime:0.0040s ]
+
+[ 2015-09-25T22:17:51+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-25T22:18:16+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_message` [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_users_message` (`sender_id`,`receiver_id`,`type`,`sent_time`) VALUES ('28','23','1','1443190696') [ RunTime:0.0950s ]
+
+[ 2015-09-25T22:18:24+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_users_message` [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_users_message` (`sender_id`,`receiver_id`,`type`,`sent_time`) VALUES ('28','23','1','1443190704') [ RunTime:0.0910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-25T22:18:48+08:00 ] 127.0.0.1 /chat/index.php/Home/User/addFriend/en_id/9d4afb83528875aef9e0380b7901d0ba.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_talk` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_users_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_users_login` WHERE ( user_en_id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_users_message` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_users_message` (`sender_id`,`receiver_id`,`type`,`sent_time`,`content`) VALUES ('28','23','1','1443190728','ph107请求加为你为好友！') [ RunTime:0.1160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

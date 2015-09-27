@@ -3,5 +3,22 @@
 	<div class="right">
 		<a href="{:U('User/personal')}"><php>echo session('nickname');</php></a>
 		<a href="{:U('Public/userexit')}">退出</a>
+		<a href="{:U('Message/index')}">message:<span id="message_count"></span></a>
 	</div>
+	<a href="{:U('User/myfriend')}">我的朋友</a>
+	<script type="text/javascript">
+  		$.ajax({
+            url: "{:U('Message/message_weidu_count')}",
+            type: 'get',
+            dataType: 'text',
+            success:function(msg){
+            	msg = eval("("+msg+")");
+            	if(msg['state'] == 200){
+            		$("#message_count").text(msg['data']);
+            	}else{
+            		alert(msg['content']);
+            	}
+            }
+        })	
+	</script>
 </header>

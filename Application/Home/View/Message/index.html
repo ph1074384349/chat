@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>信息</title>
+	<style type="text/css">
+		.b1{background-color: #dfdfdf;height: 20px;}
+		.b2{height: 20px;}
+	</style>
+</head>
+<body>
+	<h2>接受</h2>
+	<foreach name="friendmessage" item="vo">
+		<div>
+			{$vo.user_en_id|getNicknameByEnId=###}
+			<a href="{:U('User/friend_agree',array('id'=>$vo[user_en_id]))}">同意</a>
+			<a href="{:U('User/friend_disagree',array('id'=>$vo[user_en_id]))}">不同意</a>
+			<a href="{:U('User/friend_ignore',array('id'=>$vo[user_en_id]))}">忽略</a>
+		</div>
+	</foreach>
+</body>
+</html>

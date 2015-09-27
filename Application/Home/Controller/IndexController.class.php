@@ -10,6 +10,10 @@ class IndexController extends Controller {
 
 	/*首页*/
     public function index(){
+    	$this->User = new \Home\Model\UserModel();$this->User = new \Home\Model\UserModel();
+    	$where['user_id'] = array('neq',session('user_id'));//搜索条件
+        $data = $this->User->where($where)->relation(true)->select();
+        $this->data = $data;
         $this->display();
     }
 }

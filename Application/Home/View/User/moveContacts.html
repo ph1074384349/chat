@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>移至</title>
+</head>
+<body>
+	<ul>
+		<foreach name="data" item="vo">
+			<li><a href="{:U('User/domoveContacts',array('gid'=>$vo[group_id],'fenid'=>$friend_en_id ))}">{$vo.name}</a></li>
+		</foreach>		
+	</ul>
+
+</body>
+</html>
